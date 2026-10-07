@@ -1,0 +1,88 @@
+{
+  "raw_dataset": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\数据集文件\\dataset_glasswindow-main",
+  "project": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project",
+  "initial_counts": {
+    "train": {
+      "images": 3530,
+      "labels": 3520
+    },
+    "test": {
+      "images": 219,
+      "labels": 220
+    }
+  },
+  "prepared_counts": {
+    "train": {
+      "images": 3220,
+      "labels": 3220
+    },
+    "val": {
+      "images": 213,
+      "labels": 213
+    }
+  },
+  "prepared_6class_box_counts": {
+    "train": {
+      "glass window": 80467,
+      "pillar": 308,
+      "wall": 153,
+      "person": 325,
+      "door": 118,
+      "car": 54
+    },
+    "val": {
+      "glass window": 9159,
+      "pillar": 12,
+      "wall": 16,
+      "person": 20,
+      "door": 28,
+      "car": 18
+    }
+  },
+  "prepared_window_only_box_counts": {
+    "train": 80467,
+    "val": 9159
+  },
+  "automatic_fixes": {
+    "zero_area_lines_removed": 39,
+    "duplicate_samples_quarantined": 215,
+    "cross_split_train_samples_quarantined": 2
+  },
+  "manual_review": {
+    "duplicate_label_conflict": 32,
+    "empty_label_review": 53,
+    "missing_label": 14
+  },
+  "quarantine_manifest_entries": 623,
+  "window_only_image_materialization": {
+    "hardlink": 3433
+  },
+  "annotation_previews": 30,
+  "annotation_contact_sheets": [
+    "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\annotation_preview_01.jpg",
+    "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\annotation_preview_02.jpg",
+    "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\annotation_preview_03.jpg"
+  ],
+  "manual_review_contact_sheets": {
+    "duplicate_label_conflict": [
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\duplicate_label_conflict_01.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\duplicate_label_conflict_02.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\duplicate_label_conflict_03.jpg"
+    ],
+    "empty_label_review": [
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\empty_label_review_01.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\empty_label_review_02.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\empty_label_review_03.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\empty_label_review_04.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\empty_label_review_05.jpg"
+    ],
+    "missing_label": [
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\missing_label_01.jpg",
+      "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\reports\\previews\\manual_review\\missing_label_02.jpg"
+    ]
+  },
+  "configs": [
+    "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\configs\\data_clean_6class.yaml",
+    "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\configs\\data_clean_window_only.yaml"
+  ]
+}

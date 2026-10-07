@@ -1,0 +1,69 @@
+{
+  "model": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928\\weights\\best.pt",
+  "evaluation_elapsed_seconds": 29.243651099999624,
+  "training_elapsed_seconds": 2658.964492000001,
+  "total_elapsed_seconds": 2688.2081473000017,
+  "completed_epochs": 6,
+  "validation_images": 213,
+  "validation_instances": 9159,
+  "paper_targets": {
+    "precision": 0.76,
+    "recall": 0.728,
+    "map_50": 0.777
+  },
+  "challenge_thresholds": {
+    "precision": 0.71,
+    "recall": 0.68,
+    "map_50": 0.72
+  },
+  "ultralytics_summary_metrics": {
+    "precision": 0.6534412762330178,
+    "recall": 0.3800260534845774,
+    "map_50": 0.49769017220931866,
+    "map_50_95": 0.3086102639880511,
+    "f1": 0.48056615289157983
+  },
+  "fixed_threshold_metrics": {
+    "0.05": {
+      "tp": 3660,
+      "fp": 1974,
+      "fn": 5499,
+      "predictions": 5634,
+      "precision": 0.6496272630457934,
+      "recall": 0.3996069439895185,
+      "f1": 0.49482863516528086,
+      "fp_per_image": 9.267605633802816
+    },
+    "0.10": {
+      "tp": 1870,
+      "fp": 525,
+      "fn": 7289,
+      "predictions": 2395,
+      "precision": 0.7807933194154488,
+      "recall": 0.20417076100010917,
+      "f1": 0.32369742080664704,
+      "fp_per_image": 2.464788732394366
+    },
+    "0.25": {
+      "tp": 282,
+      "fp": 48,
+      "fn": 8877,
+      "predictions": 330,
+      "precision": 0.8545454545454545,
+      "recall": 0.030789387487717,
+      "f1": 0.05943724312361682,
+      "fp_per_image": 0.22535211267605634
+    }
+  },
+  "automated_grade": "pipeline_only",
+  "artifacts": {
+    "pr_curve": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928_evaluation\\BoxPR_curve.png",
+    "f1_curve": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928_evaluation\\BoxF1_curve.png",
+    "confusion_matrix": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928_evaluation\\confusion_matrix.png",
+    "normalized_confusion_matrix": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928_evaluation\\confusion_matrix_normalized.png",
+    "sample_predictions": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928_sample20",
+    "sample_contact_sheet": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928_sample20\\sample20_contact_sheet.jpg",
+    "best_weights": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928\\weights\\best.pt",
+    "last_weights": "D:\\无人机创赛\\第一次任务ddl9.29\\数据集——取自高空清洗无人机论文\\glasswindow_yolo11_project\\runs\\yolo11n_window_cpu_1h_20260928\\weights\\last.pt"
+  }
+}

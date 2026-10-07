@@ -1,0 +1,52 @@
+{
+  "prepared_6class": {
+    "train": {
+      "images": 3220,
+      "labels": 3220,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "bad_lines": [],
+      "boxes": 81425
+    },
+    "val": {
+      "images": 213,
+      "labels": 213,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "bad_lines": [],
+      "boxes": 9253
+    },
+    "cross_split_duplicate_hashes": 0
+  },
+  "prepared_window_only": {
+    "train": {
+      "images": 3220,
+      "labels": 3220,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "bad_lines": [],
+      "boxes": 80467
+    },
+    "val": {
+      "images": 213,
+      "labels": 213,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "bad_lines": [],
+      "boxes": 9159
+    },
+    "cross_split_duplicate_hashes": 0
+  },
+  "yaml_checks": {
+    "data_clean_6class.yaml": {
+      "has_train": true,
+      "has_val": true,
+      "has_absolute_project_path": true
+    },
+    "data_clean_window_only.yaml": {
+      "has_train": true,
+      "has_val": true,
+      "has_absolute_project_path": true
+    }
+  }
+}

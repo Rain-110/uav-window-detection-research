@@ -1,0 +1,12 @@
+dataset/raw/
+first_task/prepared_6class/
+first_task/prepared_window_only/
+first_task/quarantine/
+first_task/runs/
+*.pt
+*.weights
+*.zip
+*.avi
+__pycache__/
+.venv/
+first_task/reports/
